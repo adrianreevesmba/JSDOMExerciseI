@@ -29,5 +29,6 @@ let current = document.getElementsByClassName("current")[0]
 // Get the h2 node from the section before the 'current' section
 current.previousElementSibling.children
 // Get the div that contains the section that has an h2 with a class of 'highlight'
-
+document.getElementsByClassName("col")
 // Get all the sections that contain an H2 (using a single statement);
+document.getElementsByTagName("h2")[0, 1]
